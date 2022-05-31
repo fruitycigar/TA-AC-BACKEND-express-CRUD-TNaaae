@@ -5,6 +5,9 @@ var path = require('path');
 // app instantiation
 var app = express();
 
+// middleware
+app.use(express.urlencoded({ extended: true }));
+
 // view engine set-up
 app.set("view engine", "ejs");
 app.set("views", path.join(__dirname, 'views'));
