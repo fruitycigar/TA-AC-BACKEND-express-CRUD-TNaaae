@@ -4,11 +4,11 @@ var router = express.Router();
 
 // Routes
 router.get('/new', (req, res) => {
-    // get a student form page
+    res.render("studentForm.ejs");
 })
 
 router.post('/', (req, res) => {
-    // capture data
+    res.send(req.body);
 })
 
 router.get('/', (req, res) => {
