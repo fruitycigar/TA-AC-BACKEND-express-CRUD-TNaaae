@@ -15,3 +15,5 @@ In previous application
 - get id using req.params.id
 - fetch user from database using id received from params
 - render singleUser.ejs with single user information.
+
+<!-- How can she disappear?! -->
