@@ -67,3 +67,5 @@ handle delete operation by doing a DELETE request on '/users/:id'
 `POSTMAN` is a HTTP Client which is used to mock HTTP requests. We can also send appropriate data with request when using postman.
 
 We are using postman to send user data while creating user(POST on '/users') and updating a single user(PUT on '/users/some-user-id').
+
+<!-- I'd like a demo in this before I create a full-fledged user application on a raw HTML page. -->
