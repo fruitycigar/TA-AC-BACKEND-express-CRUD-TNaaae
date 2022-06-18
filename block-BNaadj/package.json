@@ -1,14 +1,18 @@
 {
-  "name": "altcampus-assignment",
+  "name": "user-diary-3",
   "version": "1.0.0",
   "description": "",
-  "main": "",
+  "main": "index.js",
   "scripts": {
-    "test": "jest --passWithNoTests"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
-  "author": "AltCampus",
-  "license": "GNU GPL V3",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "jest": "^26.0.1"
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "mongoose": "^6.4.0"
   }
 }
